@@ -1,0 +1,13 @@
+<%= render partial: "repositories/new_form", locals: { repository: Repository.new } %>
+
+<div id="issues">
+  <% @issues.each do |issue| %>
+    <div style="padding:0.3rem; border-bottom: solid; margin-bottom: 0.3rem;">
+      <b><%= issue.repository.name %></b> ->
+      <a href="<%= issue.link %>"><%= issue.title %></a>
+      <div style="padding-top: 0.4rem;">
+        <%= issue.description %>
+      </div>
+    </div>
+  <% end %>
+</div>

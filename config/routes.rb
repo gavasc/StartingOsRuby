@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  root "issues#index"
+
+  get "/issues/", to: "issues#index"
+  get "/issues/:id", to: "issues#show"
+
+  get "/repositories/new", to: "repositories#new"
+  post "/repositories/", to: "repositories#create"
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
