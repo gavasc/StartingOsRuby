@@ -1,24 +1,6 @@
-# README
+# Starting OS Ruby
+Site where people can add repositories that have issues with the `goodfirstissue` label and beginners in Ruby and Rails
+can check these issues, to colaborate in open ones and learn from the closed ones.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Status
+Still a work in progress, basic functionality implemented, but no styling added yet.
